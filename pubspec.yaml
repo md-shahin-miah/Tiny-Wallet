@@ -1,0 +1,59 @@
+name: flutter_webview
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.1+2
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+
+flutter_icons:
+  image_path: "assets/logo.png"
+  android: true
+  ios: true
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.2
+  shared_preferences: any
+  flutter_launcher_icons: ^0.8.1
+  cupertino_icons: ^1.0.0
+  webview_flutter:
+  flutter_inappwebview: ^4.0.0+4
+  flutter_spinkit: ^4.1.2+1
+  provider: ^4.3.3
+  intl:
+  url_launcher:
+  steps: ^1.0.1
+  flare_flutter:
+  pin_code_text_field: ^1.8.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/calender.png
+    - assets/images/card_cvv.png
+    - assets/images/visa.png
+    - assets/images/jcb.png
+    - assets/images/verve.png
+    - assets/images/discover.png
+    - assets/images/american_express.png
+    - assets/images/dinners_club.png
+    - assets/images/mastercard.png
+    - assets/logo.png
+    - assets/images/wallet/w3.png
+    - assets/images/wallet/w1.png
+    - assets/images/wallet/w2.png
+    - assets/images/tik.PNG
